@@ -2,14 +2,7 @@ import mysql.connector
 import pprint
 
 def fll_box_detail(boxid):
-    printer = pprint.PrettyPrinter(indent=1)
-    connect_args = {
-    'host': 'rm-bp12n2u9o7432w52b.mysql.rds.aliyuncs.com',
-    'port': 3306,
-    'user': 'champzee',
-     'db':'champzee',
-    'password': 'JiuhQI9HvegvEiCM',
-    'charset':'utf8'
+
     };
 
     conn=mysql.connector.connect(**connect_args)
